@@ -1,11 +1,11 @@
 apiVersion: v1
-kind: Pod
+kind: Pod  
 metadata:
   name: flower-app-pod
   namespace: test-ns
 spec:
   containers:
-    - name: flower-app container
-      image:  murlisocial123/flower-sample:v2.0
+    - name: test-container
+      image: muralisocial123/flower-sample:v2.0
       ports:
         - containerPort: 3015
